@@ -31,7 +31,7 @@ main {
 .cabecalho .titulo {
     color: var(--cor-titulo-fraco);
     text-transform: uppercase;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 102px;
     -webkit-text-stroke: 2px var(--cor-titulo-forte);
 }
@@ -118,7 +118,7 @@ main {
 .selecao-de-personagens .lista-de-personagens .personagem:hover{
     animation: c-glowing-blue .3s ease-in-out infinite;
     animation-duration: alternate;
-    transform: scale(3);
+    transform: scale(1.07);
     z-index: 2;
 }
 
@@ -131,7 +131,7 @@ main {
 .selecao-de-personagens .lista-de-personagens .personagem.jogador-2:hover{
     animation: c-glowing-red .3s ease-in-out infinite;
     animation-duration: alternate;
-    transform: scale(3);
+    transform: scale(1.07);
     z-index: 2;
 }
 
