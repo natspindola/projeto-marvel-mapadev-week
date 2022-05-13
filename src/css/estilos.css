@@ -109,3 +109,32 @@ main {
     border-radius: 5px;
 }
 
+.selecao-de-personagens .lista-de-personagens .personagem.selecionado{
+    border: 2px solid var(--cor-azul-media);
+    animation: c-glowing-blue .3s ease-in-out infinite;
+    animation-duration: alternate;
+}
+
+.selecao-de-personagens .lista-de-personagens .personagem:hover{
+    animation: c-glowing-blue .3s ease-in-out infinite;
+    animation-duration: alternate;
+    transform: scale(3);
+    z-index: 2;
+}
+
+.selecao-de-personagens .lista-de-personagens .personagem.jogador-2-selecionado{
+    border: 2px solid var(--cor-vermelha-fraca);
+    animation: c-glowing-red .3s ease-in-out infinite;
+    animation-duration: alternate;
+}
+
+.selecao-de-personagens .lista-de-personagens .personagem.jogador-2:hover{
+    animation: c-glowing-red .3s ease-in-out infinite;
+    animation-duration: alternate;
+    transform: scale(3);
+    z-index: 2;
+}
+
+.selecao-de-personagens .lista-de-personagens .personagem .tag{
+    display: none;
+}
