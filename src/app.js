@@ -12,6 +12,7 @@ personagens.forEach((personagem) => {
 
         personagem.classList.add("selecionado");
 
+        
         const imagemJogador1 = document.getElementById('personagem-jogador-1');
         imagemJogador1.src = `./src/imagens/${idSelecionado}.png`;
 
